@@ -17,6 +17,12 @@ public class AutoMain {
 		
 		Auto auto3 = new Auto();
 		auto3.naytaTiedot();
+		auto3.kiihdytä();
+		auto3.kiihdytä();
+		auto3.kiihdytä();
+		auto3.kiihdytä();
+		auto3.kiihdytä();
+		auto3.kiihdytä();
 
 	}
 
