@@ -32,6 +32,7 @@ class Auto {
 	public String merkki;
 	public String malli;
 	public int bensanMaara;
+	public int tankinKoko;
 	
 	public Auto() {
 		merkki = "Lada";
