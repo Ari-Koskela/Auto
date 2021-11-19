@@ -47,6 +47,8 @@ class Auto {
 		if (bensanMaara > 0) {
 		System.out.println("Auto kiihtyy.");
 		bensanMaara--;
+		} else {
+			System.out.println("Tankki on tyhjä!");
 		}
 	}
 	
