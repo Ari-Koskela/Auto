@@ -9,7 +9,7 @@ public class AutoMain {
 		auto1.bensanMaara = 50;
 		
 		auto1.naytaTiedot();
-		auto1.kiihdytä();
+		auto1.kiihdyta();
 		auto1.naytaTiedot();
 		
 		Auto auto2 = new Auto("Volkswagen", "Golf", 60);
@@ -17,12 +17,12 @@ public class AutoMain {
 		
 		Auto auto3 = new Auto();
 		auto3.naytaTiedot();
-		auto3.kiihdytä();
-		auto3.kiihdytä();
-		auto3.kiihdytä();
-		auto3.kiihdytä();
-		auto3.kiihdytä();
-		auto3.kiihdytä();
+		auto3.kiihdyta();
+		auto3.kiihdyta();
+		auto3.kiihdyta();
+		auto3.kiihdyta();
+		auto3.kiihdyta();
+		auto3.kiihdyta();
 
 	}
 
@@ -50,23 +50,23 @@ class Auto {
 		System.out.println("Auto jarruttaa.");
 	}
 	
-	public void kiihdytä() {
+	public void kiihdyta() {
 		if (bensanMaara > 0) {
 		System.out.println("Auto kiihtyy.");
 		bensanMaara--;
 		} else {
-			System.out.println("Tankki on tyhjä!");
+			System.out.println("Tankki on tyhjÃ¤!");
 		}
 	}
 	
 	public void naytaTiedot() {
-		System.out.println(merkki + " " +malli + "\n" + "Bensan määrä " + bensanMaara);
+		System.out.println(merkki + " " +malli + "\n" + "Bensan mÃ¤Ã¤rÃ¤ " + bensanMaara);
 	}
 	
 	public void tankkaa(int maara) {
 		System.out.println("Tankissa bensaa: " + bensanMaara);
 		System.out.println("Tankkaus: " + maara);
 		bensanMaara += maara;
-		System.out.println("Tankissa bensaa tankkauksen jälkeen: " + bensanMaara);
+		System.out.println("Tankissa bensaa tankkauksen jÃ¤lkeen: " + bensanMaara);
 	}
 }
